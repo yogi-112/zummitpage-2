@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="form2.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Your Review
+	</title>
+    <link rel="stylesheet" href="ratingstars.css">
+	
+</head>
+
+<body>
+    <div class="bggg">
+    <br><hr>
+	<h1>Review Form</h1>
+    <hr>
+    <br>
+    
+	<form id="form">
+        <!-- Details -->
+		<div class="form-control">
+			<label for="placementtext" id="label-name">
+				<strong>placement (*):</strong>
+			</label>
+
+			<!-- Input Type Text -->
+            <textarea id="placementtext" cols="50" rows="3" placeholder="Enter Here">
+            </textarea>
+
+		</div>
+
+		<div class="form-control">
+			<label for="infra" id="label-infra ">
+				<strong>for your Course & Hostel (*) :</strong>
+			</label>
+
+			<!-- Input Type infra-->
+            <textarea id="infra" cols="50" rows="5" placeholder="tell here" >
+            </textarea>
+		</div>
+
+		<div class="form-control">
+			<label for="age" id="label-age"><strong>
+				Faculty, Curriculum & Exams for your course (*):</strong>
+			</label>
+
+			<!-- Input Type Text -->
+            <textarea id="age" cols="50" rows="5"></textarea>
+		</div>
+
+
+		<div class="form-control">
+			<label for="role" id="label-role"><strong>
+				Are you...?</strong>
+			</label>
+			
+			<!-- Dropdown options -->
+			<select name="role" id="role">
+				<option value="student">student</option>
+				<option value="lecture">lecture</option>
+				<option value="parent">parent</option>
+			</select>
+		</div>
+
+		<div class="form-control">
+			<label><strong>
+				Would you recommend others to take admission in your college?</strong>
+			</label>
+
+			<!-- Input Type Radio Button--> 
+			<label for="recommed-1">
+				<input type="radio"
+					id="recommed-1"
+					name="recommed">Yes</input>
+			</label>
+			<label for="recommed-2">
+				<input type="radio"
+					id="recommed-2"
+					name="recommed">No</input>
+			</label>
+			<label for="recommed-3">
+				<input type="radio"
+					id="recommed-3"
+					name="recommed">Maybe</input>
+			</label>
+		</div>
+
+		<div class="form-control">
+			<label><strong>Campus Life : </strong>
+				<small><i>(Check all that apply)</i></small>
+			</label>
+			<!-- Input Type Checkbox -->
+			<label for="inp-1">
+				<input type="checkbox"
+					name="inp">Sports</input></label>
+			<label for="inp-2">
+				<input type="checkbox"
+					name="inp">INNOVATION</input></label>
+			<label for="inp-3">
+				<input type="checkbox"
+					name="inp">CANTEEN</input></label>
+			<label for="inp-4">
+				<input type="checkbox"
+					name="inp">TECHINCAL LABS</input></label>
+			<label for="inp-5">
+				<input type="checkbox"
+					name="inp">TED-X</input></label>
+			<label for="inp-6">
+				<input type="checkbox"
+					name="inp">EVENTS</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">PEP-TALKS</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">INTERACTIONS</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">WHEELER-PARKING</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">VIEW POINT</input></label>
+		</div>
+
+		<div class="form-control">
+			<label for="comment"><i>
+				Any other information that you would like to share</i>
+			</label>
+
+			<!-- multi-line text input control -->
+			<textarea name="comment" id="comment"
+				placeholder="Enter your comment here">
+			</textarea>
+		</div>
+        <!--submitbutton-->
+        <button class="slide" type="button" value="submit">&nbsp;</button>
+	</form>
+    </div>
+    
+</body>
+
+</html>
